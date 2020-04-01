@@ -40,9 +40,14 @@
         <!--后台用户表-->
 
 
-        <table tableName="sell%">
+        <table tableName="%">
             <generatedKey column="seller_id" sqlStatement="MySql" identity="true"/>
         </table>
+
+        <!--sqlserver-->
+        <!--<table tableName="sys_user">
+            <generatedKey column="username" sqlStatement="SqlServer" identity="true"/>
+        </table>-->
 
     </context>
 </generatorConfiguration>
